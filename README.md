@@ -14,6 +14,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 * Maintains real-time entry and exit logs
 * Ensures secure and verified access to hostel premises
 * Provides complete traceability of all visitor activities
+
 👥 Core Entities
 
 * Visitor Stores details of individuals visiting the hostel
@@ -21,6 +22,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 * Visit Request Handles pre-entry approval requests sent by visitors
 * Visit Log Maintains final records of entry, exit, and approval status
 * Security Staff Monitors and manages visitor approvals and hostel entry control
+
 🔄 System Workflow
 
 * A visitor submits a visit request for a resident
@@ -29,6 +31,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 * Entry details are stored in the Visit Log
 * Exit time and status are updated after the visit
 * All records are stored permanently for security auditing and tracking
+
 🔐 Key Functionalities
 
 1. Visitor Registration & Request Handling Visitors are recorded in the system and linked with residents through visit requests
@@ -36,6 +39,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 3. Real-Time Visit Logging Every entry and exit is recorded with timestamps for monitoring and audits
 4. Secure Data Tracking All visitor activities are stored in structured relational tables for analysis
 5. Access Control Support Security staff ensures only verified visitors enter the hostel premises
+
 🧠 Database Design Concepts Used
 
 * Relational Schema Design
@@ -43,6 +47,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 * Normalization (to reduce redundancy)
 * Transaction Management (for secure logging)
 * Indexing (for faster search and retrieval)
+
 ⚙️ System Importance
 
 * Enhances hostel security
@@ -50,6 +55,7 @@ It replaces manual entry registers with a digitally controlled approval-based wo
 * Maintains accurate visitor history
 * Supports audit and compliance requirements
 * Provides transparent approval workflows
+
 📊 Expected Output
 
 * Complete visitor history tracking
