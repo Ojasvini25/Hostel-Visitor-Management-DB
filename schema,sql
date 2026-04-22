@@ -1,15 +1,13 @@
--- =========================
 -- VISITOR TABLE
--- =========================
+
 CREATE TABLE Visitor (
     VisitorID INT PRIMARY KEY,
     Name VARCHAR(50) NOT NULL,
     Contact VARCHAR(15) UNIQUE
 );
 
--- =========================
 -- RESIDENT TABLE
--- =========================
+
 CREATE TABLE Resident (
     ResidentID INT PRIMARY KEY,
     Name VARCHAR(50) NOT NULL,
@@ -17,18 +15,16 @@ CREATE TABLE Resident (
     RoomNo INT
 );
 
--- =========================
 -- SECURITY STAFF TABLE
--- =========================
+
 CREATE TABLE SecurityStaff (
     StaffID INT PRIMARY KEY,
     Name VARCHAR(50) NOT NULL,
     Shift VARCHAR(20)
 );
 
--- =========================
 -- VISIT REQUEST TABLE
--- =========================
+
 CREATE TABLE VisitRequest (
     RequestID INT PRIMARY KEY,
     VisitorID INT,
@@ -40,9 +36,8 @@ CREATE TABLE VisitRequest (
     FOREIGN KEY (ResidentID) REFERENCES Resident(ResidentID)
 );
 
--- =========================
 -- VISIT LOG TABLE
--- =========================
+
 CREATE TABLE VisitLog (
     LogID INT PRIMARY KEY,
     VisitorID INT,
